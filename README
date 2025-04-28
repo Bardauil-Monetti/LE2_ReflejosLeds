@@ -1,0 +1,4 @@
+Ruleta de reflejo con LEDs: El juego consiste en una secuencia de 7 leds (6 rojos y 1 verde) que se prenden uno por uno de izquierda a derecha y viceversa. 
+El objetivo es presionar el pulsador cuando se encienda el led verde. 
+De lograrlo, el jugador sumara un punto y la velocidad de la secuencia aumentara, haciendo el juego mas desafiante. 
+En caso de fallar, la puntuación se reiniciara a 0 y la velocidad volvera a la normalidad. Los aciertos, equivocaciones y el puntaje se mostraran por puerto serie.
