@@ -42,7 +42,7 @@ void loop(){
                 puntos++;
                 Serial.print("Acertaste, tu puntuacion es de: ");
                 Serial.println(puntos);
-                intervalo = intervalo - (intervalo*25)/100;
+                intervalo = intervalo - intervalo * 0.25;
             }
             else digitalWrite(leds[i], LOW);
             Serial.println("Fallaste, tu puntuacion fue de: ");
